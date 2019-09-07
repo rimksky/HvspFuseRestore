@@ -1,0 +1,8 @@
+.vs
+*.componentinfo.xml
+*/Debug/*
+*/Release/*.d
+*/Release/*.o
+*/Release/Makefile
+*/Release/makedep.mk
+*/Release/*.map
