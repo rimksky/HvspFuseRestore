@@ -22,10 +22,10 @@ HVSP Fuse Restore circuit for ATtiny13, ATtiny25/45/85 (above) and for ATtiny24/
 
 ![hvsp-fuse-resetter-attiny25-45-85](./hvsp-fuse-resetter-attiny25-45-85.gif)
 
-##Usage
+## Usage
 First load the software into into the ATmega8 using your preferred  ISP programmer.  Then verify that +12V voltage supply is applied as well +5V supply. Then press button to start the fuse restore process.  When the led turns on constantly the fuses of the ATtiny have been successfully restored to factory default values. A flashing LED indicates the fuse restore was not successful.  
 
-##Software
+## Software
 The AVR-GCC software runs unchanged on any ATmega8 or ATmega88/168/328, just adjust MCU type and clock frequency in the Makefile. The software can be easily adjusted to run on any AVR with at least 8 free I/O pins by changing the PORT and PIN definitions in the source file.
 
 ## Licence
